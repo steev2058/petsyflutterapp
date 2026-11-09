@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "collected_at": "2026-11-09",
+    "warning": "Do not invent product catalogs or adoption pets from incomplete Facebook posts. Partner + consent first."
+  },
+  "pet_shops_to_contact": [
+    {
+      "name": "Furry Friends Pet Shop",
+      "city": "دمشق",
+      "phone": "+963934236496",
+      "branches": [
+        "القصاع — ثاني حارة على يسار مشفى الفرنسي جانب مكتبة أبو سمرا",
+        "مشروع دمر الجزيرة 7 خلف كافيه المكتب جانب مكتبة النحاس"
+      ],
+      "hours": "12:00–22:00",
+      "facebook": "Furry Friends Pet Shop Official",
+      "sources": ["megabizdir.com"],
+      "use_for": "shop_partner — ask for current price list + photos; do not scrape posts as products"
+    },
+    {
+      "name": "Sofy Pet's",
+      "city": "دمشق",
+      "phone": null,
+      "address": "مشروع دمر — الإسكان",
+      "hours": "12–19 (الخميس حتى 17)",
+      "sources": ["megabizdir.com"],
+      "use_for": "shop_partner — need phone confirmation"
+    },
+    {
+      "name": "Pet House Syria",
+      "city": "حلب",
+      "phone": "+963991175388",
+      "whatsapp": "+963991175388",
+      "hours": "12–23",
+      "categories": ["food", "toys", "shampoo", "accessories", "litter"],
+      "delivery": "حلب + شحن للمحافظات",
+      "sources": ["deebac.com/advertisement/8973"],
+      "use_for": "shop_partner"
+    },
+    {
+      "name": "باندا للحيوانات الأليفة",
+      "city": "حلب",
+      "area": "الأشرفية",
+      "sources": ["kasioon.com"],
+      "sample_listings_note": "أسعار على قاسيون قديمة/غير موثوقة ككتالوج — لا تستورد أسعاراً مباشرة",
+      "use_for": "shop_partner_contact_only"
+    },
+    {
+      "name": "Meow shop",
+      "city": "حلب",
+      "sources": ["yasteq.com"],
+      "use_for": "needs_verification"
+    }
+  ],
+  "adoption_orgs_trusted": [
+    {
+      "name": "Syrian Team for Animal Rescue (STAR)",
+      "city": "دمشق / صحنايا",
+      "facebook": "https://www.facebook.com/syrianteamanimalrescue",
+      "type": "rescue_shelter",
+      "notes": "منظمة موثقة دولياً (SPCAI). التبني عبر تواصل رسمي وليس نسخ بوستات عشوائية.",
+      "action": "راسلهم لعرض Petsy كقناة تبني سورية مع موافقتهم على نشر حيواناتهم"
+    },
+    {
+      "name": "Ernesto's Sanctuary (House of Cats Ernesto)",
+      "city": "حلب",
+      "website": "https://ernestosanctuary.org/",
+      "email": "info@ernestosanctuary.org",
+      "facebook": "https://www.facebook.com/ernestosanctuaryforsyriananimals",
+      "type": "sanctuary_clinic",
+      "notes": "ملجأ كبير + عيادة مجانية. موثوق إعلامياً. التبني/الشراكة بإيميل رسمي فقط.",
+      "action": "طلب شراكة محتوى تبني + عيادتهم كـ vet profile بموافقتهم"
+    },
+    {
+      "name": "أليف سوريا — Aleef Syria",
+      "website": "https://aleefsyria.com/clinics",
+      "type": "directory_platform",
+      "notes": "دليل عيادات موثّقة (زين حلب، هايبرفت طرطوس…). مصدر عيادات وليس تبني.",
+      "action": "مقارنة/استيراد عياداتهم الموثقة بعد التحقق من الهاتف"
+    }
+  ],
+  "facebook_groups_syria_only": [
+    {
+      "name": "حيوانات اليفة بيع شراء تبني في سوريا",
+      "lookup": "petsinsyria",
+      "url_hint": "https://lookup-id.com/group/petsinsyria.html",
+      "scope": "سوريا",
+      "rules_summary": "بيع/تبني يحتاج صورة + فصيلة + جنس + عمر + مكان + لقاحات؛ تبني بدون سعر؛ ممنوع تحت عمر شهرين ونصف",
+      "use": "مراقبة يدوية + دعوة الناشرين لإكمال الملف داخل Petsy — ممنوع سكرابينغ أعمى"
+    },
+    {
+      "name": "قطط وحيوانات أليفة للتبني في دمشق",
+      "url": "https://www.facebook.com/groups/639110647040643",
+      "scope": "دمشق",
+      "use": "تبني محلي — نفس القاعدة: لا تستورد بوست ناقص"
+    }
+  ],
+  "do_not_import": [
+    "أسماء أطباء من smp.net4syria بدون هاتف/عنوان كامل (مئات الأسماء ناقصة)",
+    "بوستات فيسبوك بدون صورة واضحة + عمر + جنس + مدينة + تواصل",
+    "أسعار منتجات من إعلانات قديمة على قاسيون/ديبك بدون تأكيد التاجر",
+    "أي بيانات خارج سوريا نُسبت خطأً لمجموعات عراقية في نتائج البحث"
+  ]
+}

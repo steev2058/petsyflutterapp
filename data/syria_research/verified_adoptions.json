@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "collected_at": "2026-11-09",
+    "rule": "Only complete public adoption listings: photo + city + description + contact. No invented pets.",
+    "note": "Public Aleef Syria listings are scarce; STAR/Ernesto need partnership for volume."
+  },
+  "adoptions": [
+    {
+      "external_id": "aleef-5aa423ef-a22b-4c08-8053-80857f4a3c54",
+      "name": "قطة للتبني",
+      "species": "cat",
+      "breed": null,
+      "age": null,
+      "gender": "female",
+      "color": null,
+      "location": "دمشق",
+      "vaccinated": true,
+      "neutered": false,
+      "description": "قطة للتبني في دمشق. كانت تتعرّض لأذى في الحارة وتم علاجها؛ الآن هادئة ومتعودّة على التراب وتأكل طعاماً جافاً. شرط التبني: الاعتناء الجيد بالقطة.\n\nللتواصل واتساب/اتصال: +963985917419 (محمد نبيل).\nالمصدر العام: أليف سوريا — منشور تبنّي علني.",
+      "images": [
+        "https://swcpaydglblvqkwggokt.supabase.co/storage/v1/object/public/public-images/f261453e-ab6f-4103-be15-dea57d53fab1/rescue/1782887467945-0-7d2189c4-f568-47f1-b34b-efceaa3e5e7a.jpg",
+        "https://swcpaydglblvqkwggokt.supabase.co/storage/v1/object/public/public-images/f261453e-ab6f-4103-be15-dea57d53fab1/rescue/5aa423ef-a22b-4c08-8053-80857f4a3c54/1782892087906-0-177b0d94-3491-4a86-8256-1af9816a9b10.jpg"
+      ],
+      "contact_name": "محمد نبيل",
+      "contact_phone": "+963985917419",
+      "source": "https://aleefsyria.com/rescue/5aa423ef-a22b-4c08-8053-80857f4a3c54",
+      "confidence": "high"
+    }
+  ],
+  "shelter_pipeline": [
+    {
+      "name": "STAR — Syrian Team for Animal Rescue",
+      "phone": "+963932277577",
+      "city": "دمشق / صحنايا / صبورة",
+      "action": "اطلبوا قائمة حيوانات جاهزة للتبني المحلي مع صورة+عمر+جنس+حالة صحية"
+    },
+    {
+      "name": "Ernesto's Sanctuary",
+      "email": "info@ernestosanctuary.org",
+      "city": "حلب",
+      "action": "شراكة تبنّي بإيميل رسمي"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Petsy</string>
+    <!-- Replace with real Facebook app credentials for production OAuth. -->
+    <string name="facebook_app_id">0</string>
+    <string name="fb_login_protocol_scheme">fb0</string>
+    <string name="facebook_client_token">PETSY_FACEBOOK_CLIENT_TOKEN</string>
+</resources>

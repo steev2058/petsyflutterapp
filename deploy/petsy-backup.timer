@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily Petsy backup
+
+[Timer]
+OnCalendar=*-*-* 00:30:00 UTC
+RandomizedDelaySec=10min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

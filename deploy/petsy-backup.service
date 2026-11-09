@@ -1,0 +1,9 @@
+[Unit]
+Description=Petsy database and uploads backup
+After=mongod.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/petsy-backup
+Nice=10
+IOSchedulingClass=idle

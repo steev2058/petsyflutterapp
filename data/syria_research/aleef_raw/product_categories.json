@@ -1,0 +1,7 @@
+[{"id":"e357a406-676f-48b8-b523-41e9dcdd02f6","slug":"cats","name_ar":"مخصص للقطط","name_en":"Cats","display_order":10,"is_active":true,"created_at":"2026-06-28T13:45:17.248122+00:00"}, 
+ {"id":"9167e5f7-d4b7-46e2-b784-d5d52032313a","slug":"dogs","name_ar":"مخصص للكلاب","name_en":"Dogs","display_order":20,"is_active":true,"created_at":"2026-06-28T13:45:17.248122+00:00"}, 
+ {"id":"0abe9421-4c45-40ad-9cb0-a339703b8a4f","slug":"birds","name_ar":"للطيور","name_en":"Birds","display_order":30,"is_active":true,"created_at":"2026-06-28T13:45:17.248122+00:00"}, 
+ {"id":"3e78bfd1-6ec3-4cdf-8d2b-c2e83eef2336","slug":"fish","name_ar":"للأسماك","name_en":"Fish","display_order":40,"is_active":true,"created_at":"2026-06-28T13:45:17.248122+00:00"}, 
+ {"id":"1287fff7-ca10-4e77-a7d0-faaecaad408b","slug":"accessories","name_ar":"إكسسوارات","name_en":"Accessories","display_order":50,"is_active":true,"created_at":"2026-06-28T13:45:17.248122+00:00"}, 
+ {"id":"326e7883-fff5-4a5a-9f75-15ed2fc11914","slug":"food","name_ar":"طعام","name_en":"Food","display_order":60,"is_active":true,"created_at":"2026-06-28T13:45:17.248122+00:00"}, 
+ {"id":"3f95057c-25e5-4a3c-b7b6-59636fba6ed2","slug":"care","name_ar":"عناية ونظافة","name_en":"Care and hygiene","display_order":70,"is_active":true,"created_at":"2026-06-28T13:45:17.248122+00:00"}]
